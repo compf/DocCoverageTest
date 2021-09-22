@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
 
-        run: node --5help
+        run: node --help
 
 
 
@@ -38,3 +38,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          #dd
